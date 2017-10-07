@@ -116,41 +116,72 @@ p {
   color: white;
 }
 
-.corner {
-  /*Drawing a triangle ¯\_(ツ)_/¯*/
+.banner {
   box-sizing: border-box;
   position: fixed;
-  right: 0%;
-  top: 0%;
+  top:0%;
+  width: 15vw;
+  height: 5vw;
+  right: -7.5vw;
 
-  width: 0;
-  height: 0;
-  background-color: transparent;
-  border-style: solid;
-  width: 0px;
-  height: 0px;
+  background-color: #414141;
 
-  border-width: 6vw;
-  border-bottom-color: transparent;
-  border-left-color: transparent;
-  border-right-color: rgb(200,30,50);
-  border-top-color: rgb(200,30,50);
+
+  -ms-transform: rotate(45deg) translateY(50%); /* IE 9 */
+  -ms-transform-origin: 50% 0%; /* IE 9 */
+  -webkit-transform: rotate(45deg) translateY(50%); /* Chrome, Safari, Opera */
+  -webkit-transform-origin: 50% 0%; /* Chrome, Safari, Opera */
+  transform: rotate(45deg) translateY(50%);
+  transform-origin: 50% 0%;
+
 
 }
 
-.cornerIMG{
-  width: 3vw;
-  position: fixed;
-  right: 1%;
-  top: 1%;
+.banner-left {
+  left: -7.5vw;
+
+  -ms-transform: rotate(315deg) translateY(50%); /* IE 9 */
+  -ms-transform-origin: 50% 0%; /* IE 9 */
+  -webkit-transform: rotate(315deg) translateY(50%); /* Chrome, Safari, Opera */
+  -webkit-transform-origin: 50% 0%; /* Chrome, Safari, Opera */
+  transform: rotate(315deg) translateY(50%);
+  transform-origin: 50% 0%;
+}
+
+.banner img {
+  width: 2.5vw;
+  padding-top: 3%;
+}
+
+.banner p {
+  font-size: 0.85em;
+  color: white;
+  text-align: center;
+  padding-top: 1%;
+
 }
 
 @media only screen and (max-width: 1080px){
-  .corner {
-    border-width: 10vw;
+  .banner {
+    width: 100vw;
+    height:10vw;
+    right: -50vw;
+
   }
 
-  .cornerIMG {
-    width: 5vw;
+  .banner-left {
+    left: -50vw;
   }
+
+  .banner img {
+    padding-top: 2%;
+    width: 3vw;
+  }
+
+  .banner p{
+    font-size: 0.6em;
+    padding-top: 1%;
+  }
+
+
 }
