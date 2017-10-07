@@ -5,7 +5,7 @@
 ### Usage
 Link the stylesheet and then copy pasta. You're gonna want OpenSans font.
 
-####Copy pasta
+#### Copy pasta
 ```
 <a href="https://uclapi.com">
     <div class = "uaBanner">
@@ -15,7 +15,7 @@ Link the stylesheet and then copy pasta. You're gonna want OpenSans font.
 </a>
 ```
 
-####Slide to the left like this
+#### Slide to the left like this
 ```
 <a href="https://uclapi.com">
     <div class = "uaBanner uaBanner-left">
@@ -25,7 +25,7 @@ Link the stylesheet and then copy pasta. You're gonna want OpenSans font.
 </a>
 ```
 
-####Make it lighter
+#### Make it lighter
 
 ```
 <a href="https://uclapi.com">
