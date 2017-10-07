@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Rajdhani:400,700');
+
+.uaBanner {
+  box-sizing: border-box;
+  position: fixed;
+  top:0%;
+  width: 15vw;
+  height: 5vw;
+  right: -7.5vw;
+
+  background-color: #414141;
+
+
+  -ms-transform: rotate(45deg) translateY(50%); /* IE 9 */
+  -ms-transform-origin: 50% 0%; /* IE 9 */
+  -webkit-transform: rotate(45deg) translateY(50%); /* Chrome, Safari, Opera */
+  -webkit-transform-origin: 50% 0%; /* Chrome, Safari, Opera */
+  transform: rotate(45deg) translateY(50%);
+  transform-origin: 50% 0%;
+
+
+}
+
+.uaBanner-left {
+  left: -7.5vw;
+
+  -ms-transform: rotate(315deg) translateY(50%); /* IE 9 */
+  -ms-transform-origin: 50% 0%; /* IE 9 */
+  -webkit-transform: rotate(315deg) translateY(50%); /* Chrome, Safari, Opera */
+  -webkit-transform-origin: 50% 0%; /* Chrome, Safari, Opera */
+  transform: rotate(315deg) translateY(50%);
+  transform-origin: 50% 0%;
+}
+
+.uaBanner img {
+  width: 2.5vw;
+  padding-top: 3%;
+}
+
+.uaBanner p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.85em;
+  color: white;
+  text-align: center;
+  padding-top: 1%;
+
+}
+
+.uaBanner-light {
+  background-color: #EBEBEB;
+}
+.uaBanner-light p {
+  color: #414141;
+}
+
+@media only screen and (max-width: 1080px){
+  .uaBanner {
+    width: 100vw;
+    height:10vw;
+    right: -50vw;
+
+  }
+
+  .uaBanner-left {
+    left: -50vw;
+  }
+
+  .uaBanner img {
+    padding-top: 2%;
+    width: 3vw;
+  }
+
+  .uaBanner p{
+    font-size: 0.6em;
+    padding-top: 1%;
+  }
+
+
+}

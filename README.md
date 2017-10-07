@@ -1,26 +1,34 @@
-# uclapi.github.io
+# Shitty Banner for apps made with UCL API
 
-##Install 
+### Usage
+Link the stylesheet and then copy pasta. You're gonna want OpenSans font.
 
-### Prerequisites
-To build the site and the docs you will need the following:
-
-- Linux or OSX
-- Ruby 2.0 or newer
-- Bundler — If Ruby is already installed, but the bundle command doesn't work, just run gem install bundler in a terminal.
-- Nodejs.
-
-#### Install Docs
+#### Copy pasta
 ```
-cd docs
-bundle install
+<a href="https://uclapi.com">
+    <div class = "uaBanner">
+        <img src="https://github.com/mohsinasdf/wilsCorner/blob/master/images/uclapiWhite.png?raw=true"/>
+        <p>Made with UCL API</p>
+    </div>
+</a>
 ```
 
-#### Install Site
+#### Slide to the left like this
 ```
-cd site
-npm install
+<a href="https://uclapi.com">
+    <div class = "uaBanner uaBanner-left">
+        <img src="https://github.com/mohsinasdf/wilsCorner/blob/master/images/uclapiWhite.png?raw=true"/>
+        <p>Made with UCL API</p>
+    </div>
+</a>
 ```
 
-####Build Everything
-Simply run `./build.sh`
+#### Make it lighter
+
+```
+<a href="https://uclapi.com">
+    <div class = "uaBanner uaBanner-left uaBanner-light">
+        <img src="https://github.com/mohsinasdf/wilsCorner/blob/master/images/uclapiBlack.png?raw=true"/>
+        <p>Made with UCL API</p>
+    </div>
+</a>

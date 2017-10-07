@@ -116,7 +116,7 @@ p {
   color: white;
 }
 
-.banner {
+.uaBanner {
   box-sizing: border-box;
   position: fixed;
   top:0%;
@@ -137,7 +137,7 @@ p {
 
 }
 
-.banner-left {
+.uaBanner-left {
   left: -7.5vw;
 
   -ms-transform: rotate(315deg) translateY(50%); /* IE 9 */
@@ -148,12 +148,13 @@ p {
   transform-origin: 50% 0%;
 }
 
-.banner img {
+.uaBanner img {
   width: 2.5vw;
   padding-top: 3%;
 }
 
-.banner p {
+.uaBanner p {
+  font-family: 'Open Sans', sans-serif;
   font-size: 0.85em;
   color: white;
   text-align: center;
@@ -162,26 +163,32 @@ p {
 }
 
 @media only screen and (max-width: 1080px){
-  .banner {
+  .uaBanner {
     width: 100vw;
     height:10vw;
     right: -50vw;
 
   }
 
-  .banner-left {
+  .uaBanner-left {
     left: -50vw;
   }
 
-  .banner img {
+  .uaBanner img {
     padding-top: 2%;
     width: 3vw;
   }
 
-  .banner p{
+  .uaBanner p{
     font-size: 0.6em;
     padding-top: 1%;
   }
 
 
+}
+.uaBanner-light {
+  background-color: #EBEBEB;
+}
+.uaBanner-light p {
+  color: #414141;
 }
