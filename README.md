@@ -1,4 +1,4 @@
-# Shitty Banner for apps made with UCL API
+# Banner for apps made with UCL API
 ![Default dark version](https://github.com/mohsinasdf/wilsCorner/blob/master/screenshots/dark.png?raw=true)
 ![Light version](https://github.com/mohsinasdf/wilsCorner/blob/master/screenshots/light.png?raw=true)
 
