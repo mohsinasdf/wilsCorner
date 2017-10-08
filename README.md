@@ -9,7 +9,7 @@ Link the stylesheet and then copy pasta. You're gonna want OpenSans font.
 ```
 <a href="https://uclapi.com">
     <div class = "uaBanner">
-        <img src="https://github.com/mohsinasdf/wilsCorner/blob/master/images/uclapiWhite.png?raw=true"/>
+        <img src="https://rawgit.com/mohsinasdf/wilsCorner/master/images/uclapiWhite.png"/>
         <p>Made with UCL API</p>
     </div>
 </a>
@@ -19,7 +19,7 @@ Link the stylesheet and then copy pasta. You're gonna want OpenSans font.
 ```
 <a href="https://uclapi.com">
     <div class = "uaBanner uaBanner-left">
-        <img src="https://github.com/mohsinasdf/wilsCorner/blob/master/images/uclapiWhite.png?raw=true"/>
+        <img src="https://rawgit.com/mohsinasdf/wilsCorner/master/images/uclapiWhite.png"/>
         <p>Made with UCL API</p>
     </div>
 </a>
@@ -30,7 +30,7 @@ Link the stylesheet and then copy pasta. You're gonna want OpenSans font.
 ```
 <a href="https://uclapi.com">
     <div class = "uaBanner uaBanner-left uaBanner-light">
-        <img src="https://github.com/mohsinasdf/wilsCorner/blob/master/images/uclapiBlack.png?raw=true"/>
+        <img src="https://rawgit.com/mohsinasdf/wilsCorner/master/images/uclapiBlack.png"/>
         <p>Made with UCL API</p>
     </div>
 </a>
