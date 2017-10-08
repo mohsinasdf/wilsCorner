@@ -1,5 +1,40 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Rajdhani:400,700');
 
+/*Resetting any styles that might affect the banner*/
+.uaBanner, .uaBanner-left, .uaBanner-light, .uaBanner p, .uaBanner img{
+  background:none;
+  border:none;
+  bottom:auto;
+  clear:none;
+  cursor:default;
+  float:none;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:medium;
+  font-style:normal;
+  font-weight:normal;
+  height:auto;
+  left:auto;
+  letter-spacing:normal;
+  line-height:normal;
+  max-height:none;
+  max-width:none;
+  min-height:0;
+  min-width:0;
+  overflow:visible;
+  position:static;
+  right:auto;
+  text-align:left;
+  text-decoration:none;
+  text-indent:0;
+  text-transform:none;
+  top:auto;
+  visibility:visible;
+  white-space:normal;
+  width:auto;
+  z-index:auto;
+}
+
+
 .uaBanner {
   box-sizing: border-box;
   position: fixed;
@@ -74,7 +109,15 @@
   }
 
   .uaBanner p{
-    font-size: 0.6em;
+    font-size: 0.9em;
+    padding-top: 1%;
+  }
+
+}
+
+@media only screen and (max-width: 720px){
+  .uaBanner p{
+    font-size: 0.8em;
     padding-top: 1%;
   }
 }
